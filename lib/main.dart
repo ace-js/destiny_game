@@ -39,6 +39,7 @@ class _StoryPageState extends State<StoryPage> {
         decoration: BoxDecoration( // gives style to container (bgImage ect..)
           image: DecorationImage(
             image: AssetImage('images/background.png'),
+            fit: BoxFit.cover
           ),
         ),
         padding: EdgeInsets.symmetric(vertical: 50.0, horizontal: 15.0),
